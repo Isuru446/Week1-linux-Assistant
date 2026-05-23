@@ -1,0 +1,17 @@
+[
+    {
+        "command": "ls",
+        "description": "List files and directories",
+        "example": "ls -la"
+    },
+    {
+       "command": "pwd",
+       "description": "Show current direction",
+       "example": "pwd"
+    },
+    {
+        "command": "cd",
+        "description": "Change directory",
+        "example": "cd documents"  
+    }
+]
