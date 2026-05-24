@@ -1,10 +1,16 @@
 import json
-
-with open("commands.json","r") as file:
+with open ("commands.json", "r") as file:
     commands = json.load(file)
 
+search = input("Enter Linux command: ")
+
+found = False
 for cmd in commands:
-    print(f"command: {cmd['command']}")
-    print(f"description: {cmd['description']}")
-    print(f"Example: {cmd['example']}")
-    print("-" * 30)
+    if cmd["command"] == search:
+        print(f"\nCommand: {cmd['command']}")
+        print(f"Description: {cmd['description']}")
+        print(f"Example: {cmd['example']}")
+        found = True
+        
+    if not found:
+        print("Command not found.")
