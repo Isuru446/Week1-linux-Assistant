@@ -6,7 +6,7 @@ search = input("Enter Linux command: ")
 
 found = False
 for cmd in commands:
-    if cmd["command"] == search:
+    if search.lower() in cmd["command"].lower():
         print(f"\nCommand: {cmd['command']}")
         print(f"Description: {cmd['description']}")
         print(f"Example: {cmd['example']}")
