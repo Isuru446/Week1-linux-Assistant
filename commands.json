@@ -13,5 +13,55 @@
         "command": "cd",
         "description": "Change directory",
         "example": "cd documents"  
+    },
+    {
+        "command": "mkdir",
+        "description": "Create a new directory",
+        "example": "mkdir project"
+    },
+    {
+        "command": "rm",
+        "description": "Remove files or directories",
+        "example": "rm file.txt"
+    },
+    {
+        "command": "cp",
+        "description": "Copy files or directories",
+        "example": "cp file.txt backup.txt"
+    },
+    {
+        "command": "mv",
+        "description": "Move or rename files",
+        "example": "mv old.txt new.txt"
+    },
+    {
+        "command": "touch",
+        "description": "Create an empty file",
+        "example": "touch notes.txt"
+    },
+    {
+        "command": "grep",
+        "description": "Search text inside files",
+        "example": "grep password file.txt"
+    },
+    {
+        "command": "find",
+        "description": "Search for files and directories",
+        "example": "find . -name test.txt"
+    },
+    {
+        "command": "chmod",
+        "description": "Change file permissions",
+        "example": "chmod +x script.sh"
+    },
+    {
+        "command": "ping",
+        "description": "Test network connectivity",
+        "example": "ping google.com"
+    },
+    {
+        "command": "curl",
+        "description": "Transfer data from URLs",
+        "example": "curl https://example.com"
     }
 ]
